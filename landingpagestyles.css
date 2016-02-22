@@ -1,24 +1,8 @@
 
-body 
-{
-
-background: url("http://www.cs.cornell.edu/w8/~crandall/maps/world-large.png");
-background-size: cover;
-background-position: center;
-font-family: Calibri;
-text-align:center;
-	}
-
-
-Img {
+img {
  	width: 304px;
- 	height; 228px;
+ 	height: 228px;
  }
-
-h1  
-{
-color: gold;
-font-size: 30px;}
 
 
 
