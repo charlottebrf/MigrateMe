@@ -1,10 +1,4 @@
+body {
 
-.title {
-	padding: 80px 120px;
-	background: url("http://www.cs.cornell.edu/w8/~crandall/maps/world-large.png");
-	background-size: cover;
-	background-position: center;
-	font-family: Calibri;
-	color: rgba(213, 214, 255, 1);
-
+	
 }
