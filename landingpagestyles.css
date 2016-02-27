@@ -1,7 +1,17 @@
+.heading {
+
+padding: 80px 120px;
+background: url("http://www.cs.cornell.edu/w8/~crandall/maps/world-large.png");
+background-size: cover;
+background-position: center;
+font-family: helvetica;
+color: rgba(213, 214, 255, 1);
+}
+
 body 
 {font-family: Helvetica;
-text-align:center;}
-
+text-align:center;
+}
 
 img {
  	width: 304px;
@@ -23,6 +33,40 @@ text-align:center;}
 {width: 200px;
 height: auto;
 margin: 0 auto;}
+
+
+
+h1{
+  font-size: 45px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  color:black;
+  margin-bottom: 40px;
+  color: rgba(213, 214, 255, 1);
+  text-shadow: 0 2px 3px #555555;
+  font-family: helvetica;
+}
+
+h2{
+font-size: 50px;
+text-align: center;
+font-weight: bold;
+color:silver;
+margin-bottom: 40px;
+color: gray;
+text-shadow: 0 2px 3px #555555;
+font-family: helvetica;
+}
+
+
+.container{
+width: 100%;
+margin: 0 auto;
+margin-top:50px;
+}
+
+
 
 
 
