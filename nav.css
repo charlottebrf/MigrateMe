@@ -1,0 +1,35 @@
+.navbar {
+	margin: 0;
+	background-color: #373737;
+	border: 0;
+	font-size: 11px !important; 
+	letter-spacing: 4px;
+	opacity:0.9;
+}
+
+.navbar li a, .navbar .navbar-brand {
+	color: #d5d5d5 !important;
+}
+
+
+.navbar-nav li a:hover {
+	color: #fff !important;
+}
+
+.open .dropdown-toggle {
+	color: #fff;
+	background-color: #555 !important;
+}
+
+.dropdown-menu li a {
+	color: #000 !important;
+}
+
+.dropdown-menu li a:hover {
+	background-color: red !important;
+}
+
+.btn-default {
+	color: #fff;
+	background-color: #373737;
+}
