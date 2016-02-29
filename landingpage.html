@@ -19,6 +19,8 @@
 
     <link rel="stylesheet" type="text/css" href="landingpagestyles.css">
     <link rel="stylesheet" type="text/css" href="heading.css">
+    <link rel="stylesheet" type="text/css" href="nav.css">
+
 
 <script src="http://maps.googleapis.com/maps/api/js"></script>
 <script>
@@ -43,7 +45,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
   <body>
 
-  <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -51,15 +53,31 @@ google.maps.event.addDomListener(window, 'load', initialize);
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Quaquaversal</a>
+
+        <a class="navbar-brand" href="#">QUAQUAVERSAL</a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav">
           <li><a href="landingpage.html">HOME</a></li>
-          <li><a href="migrateme_rachel1.html">LEARNING</a></li>
-          <li><a href="contributor.html">CONTRIBUTOR</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="migrateme_rachel1.html">LEARNING
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="migrateme_rachel1.html">Resources</a></li>
+              </ul>
+            </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="contributor.html">CONTRIBUTOR
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="contributor.html">Get Involved</a></li>
+              <li><a href="#">Who We Are</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
 
-          <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+          <li><a href="#"><input type="search" id="mySearch" placeholder="Search"> <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button></a></li>
         </ul>
       </div>
     </div>
@@ -120,31 +138,35 @@ google.maps.event.addDomListener(window, 'load', initialize);
   </div>
 
   <div class="container">
+    
+
     <!-- page goes here -->
     <h2>Welcome to Quaquaversal</h2>
     <p><i>Not all those who wander are lost</i>- JRR Tolkien</p>
     <br>
-  </div>
+  
 
   <div class="row">
     <div class="col-sm-4">
       <!-- First column content -->
       <blockquote>
-      <p class="text-center"><b>Quaquaversal</b> is a site that brings together stories from people around the world in one place.</p>
+        <p class="text-center"><b>Quaquaversal</b> is a site that brings together stories from people around the world in one place.</p>
 
-  </div>
-    <div class="col-sm-4">
-      <!-- Second column content -->
-      <blockquote>
-      <p class="text-center">All too often as we move through countries, continents and time zones we forget to share our experiences.</p>
-    </div>
+      </div>
+      <div class="col-sm-4">
+        <!-- Second column content -->
+        <blockquote>
+          <p class="text-center">All too often as we move through countries, continents and time zones we forget to share our experiences.</p>
+        </div>
 
-    <div class="col-sm-4">
-      <!-- Third column content -->
-      <blockquote>
-      <p class="text-center">Explore this site, look at the resources and if you like, become a contributor and tell us your story, add your photos or share your links.</p>
-    </div>
-</div>
+        <div class="col-sm-4">
+          <!-- Third column content -->
+          <blockquote>
+            <p class="text-center">Explore this site, look at the resources and if you like, become a contributor and tell us your story, add your photos or share your links.</p>
+          </div>
+        </div>
+
+        </div>
 
 <div id="googleMap" style="width:2000px;height:280px;"></div>
 <br>

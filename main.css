@@ -22,18 +22,27 @@ div.desc {
 
 .jumbotron h1 {
 	font-family: 'Architects Daughter', cursive;
+	color: grey;
+}
+
+.jumbotron p {
+	font-family: 'Coming Soon', cursive;
+	color: grey;
 }
 
 h2 {
 	font-family: 'Architects Daughter', cursive;
+	color: grey;
 }
 
 #contributor  {
 	font-family: 'Coming Soon', cursive;
+	color: grey;
 }
 
 #join p {
 	font-family: 'Coming Soon', cursive;
+	color: grey;
 }
 
 
