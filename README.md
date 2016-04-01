@@ -1,5 +1,5 @@
 # MigrateMe
 
-Quaquaversal is a site that brings together stories from people around the world in one place.
+Quaquaversal is a site that brings together stories of migration from all corners of the world in one place.
 
 ![Screenshot](screenshot.png)
